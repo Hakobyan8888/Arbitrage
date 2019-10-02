@@ -8,7 +8,7 @@ namespace ArbitrageTrading
 {
     class Value
     {
-        public async void GetBinancePriceAsync(object o)
+        public async Task GetBinancePriceAsync()
         {
             var api = new BinanceApi();
             var price = await api.GetExchangeRateAsync(Asset.XRP, Asset.BTC);
@@ -16,7 +16,7 @@ namespace ArbitrageTrading
             //Console.WriteLine($"Binance is {price}");
         }
 
-        public async void GetBitfinexPriceAsync(object o)
+        public async Task GetBitfinexPriceAsync()
         {
             BitfinexApi.Assets BaseCurrency = new BitfinexApi.Assets();
             BitfinexApi.Assets QuoteCurrency = new BitfinexApi.Assets();
@@ -27,12 +27,9 @@ namespace ArbitrageTrading
 
             Price.BitfinexAskPrice = askPrice;
             Price.BitfinexBidPrice = bidPrice;
-
-            //Console.WriteLine($"Bitfinex ask is {askPrice}");
-            //Console.WriteLine($"Bitfinex bid is {bidPrice}");
         }
 
-        public async void GetBitforexPriceAsync(object o)
+        public async Task GetBitforexPriceAsync()
         {
             decimal askPrice;
             decimal bidPrice;

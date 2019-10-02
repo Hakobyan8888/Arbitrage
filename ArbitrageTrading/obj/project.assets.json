@@ -2042,6 +2042,7 @@
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2750,7 +2751,6 @@
       "path": "system.io/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4062,7 +4062,6 @@
       "path": "system.security.cryptography.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4118,7 +4117,6 @@
       "path": "system.security.cryptography.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4729,23 +4727,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\haste\\.nuget\\packages\\": {},
+    "C:\\Users\\test\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\haste\\source\\repos\\ArbitrageTrading\\ArbitrageTrading\\ArbitrageTrading.csproj",
+      "projectUniqueName": "C:\\Users\\test\\Source\\Repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj",
       "projectName": "ArbitrageTrading",
-      "projectPath": "C:\\Users\\haste\\source\\repos\\ArbitrageTrading\\ArbitrageTrading\\ArbitrageTrading.csproj",
-      "packagesPath": "C:\\Users\\haste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\haste\\source\\repos\\ArbitrageTrading\\ArbitrageTrading\\obj\\",
+      "projectPath": "C:\\Users\\test\\Source\\Repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj",
+      "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\test\\Source\\Repos\\Arbitrage\\ArbitrageTrading\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\haste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4758,11 +4756,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\haste\\source\\repos\\ArbitrageTrading\\BitfinexAPI\\BitfinexAPI.csproj": {
-              "projectPath": "C:\\Users\\haste\\source\\repos\\ArbitrageTrading\\BitfinexAPI\\BitfinexAPI.csproj"
+            "C:\\Users\\test\\Source\\Repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj": {
+              "projectPath": "C:\\Users\\test\\Source\\Repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj"
             },
-            "C:\\Users\\haste\\source\\repos\\ArbitrageTrading\\BitforexAPI\\BitforexAPI.csproj": {
-              "projectPath": "C:\\Users\\haste\\source\\repos\\ArbitrageTrading\\BitforexAPI\\BitforexAPI.csproj"
+            "C:\\Users\\test\\Source\\Repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj": {
+              "projectPath": "C:\\Users\\test\\Source\\Repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj"
             }
           }
         }
