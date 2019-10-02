@@ -1,0 +1,9 @@
+C:\Users\haste\source\repos\ArbitrageTrading\BitfinexAPI\bin\Debug\netstandard2.0\BitfinexAPI.deps.json
+C:\Users\haste\source\repos\ArbitrageTrading\BitfinexAPI\bin\Debug\netstandard2.0\BitfinexAPI.dll
+C:\Users\haste\source\repos\ArbitrageTrading\BitfinexAPI\obj\Debug\netstandard2.0\BitfinexAPI.csprojAssemblyReference.cache
+C:\Users\haste\source\repos\ArbitrageTrading\BitfinexAPI\obj\Debug\netstandard2.0\BitfinexAPI.csproj.CoreCompileInputs.cache
+C:\Users\haste\source\repos\ArbitrageTrading\BitfinexAPI\obj\Debug\netstandard2.0\BitfinexAPI.AssemblyInfoInputs.cache
+C:\Users\haste\source\repos\ArbitrageTrading\BitfinexAPI\obj\Debug\netstandard2.0\BitfinexAPI.AssemblyInfo.cs
+C:\Users\haste\source\repos\ArbitrageTrading\BitfinexAPI\bin\Debug\netstandard2.0\BitfinexAPI.pdb
+C:\Users\haste\source\repos\ArbitrageTrading\BitfinexAPI\obj\Debug\netstandard2.0\BitfinexAPI.dll
+C:\Users\haste\source\repos\ArbitrageTrading\BitfinexAPI\obj\Debug\netstandard2.0\BitfinexAPI.pdb

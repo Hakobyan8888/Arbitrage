@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArbitrageTrading", "ArbitrageTrading\ArbitrageTrading.csproj", "{69D904EE-D224-4FEC-BADE-4631A7EB97FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitfinexAPI", "BitfinexAPI\BitfinexAPI.csproj", "{8E73C5C4-8655-41B0-831C-29AF2E161EEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExchangeAPIs", "ExchangeAPIs", "{F48D1653-F980-4DCF-9E6B-4F14F5A34B0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitforexAPI", "BitforexAPI\BitforexAPI.csproj", "{CF29FCC3-65DB-4ACE-B5FA-68FB2F4D23B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D904EE-D224-4FEC-BADE-4631A7EB97FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D904EE-D224-4FEC-BADE-4631A7EB97FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D904EE-D224-4FEC-BADE-4631A7EB97FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D904EE-D224-4FEC-BADE-4631A7EB97FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E73C5C4-8655-41B0-831C-29AF2E161EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E73C5C4-8655-41B0-831C-29AF2E161EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E73C5C4-8655-41B0-831C-29AF2E161EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E73C5C4-8655-41B0-831C-29AF2E161EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF29FCC3-65DB-4ACE-B5FA-68FB2F4D23B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF29FCC3-65DB-4ACE-B5FA-68FB2F4D23B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF29FCC3-65DB-4ACE-B5FA-68FB2F4D23B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF29FCC3-65DB-4ACE-B5FA-68FB2F4D23B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E73C5C4-8655-41B0-831C-29AF2E161EEB} = {F48D1653-F980-4DCF-9E6B-4F14F5A34B0E}
+		{CF29FCC3-65DB-4ACE-B5FA-68FB2F4D23B6} = {F48D1653-F980-4DCF-9E6B-4F14F5A34B0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4632BD02-F95E-448D-8F01-2B8388C44358}
+	EndGlobalSection
+EndGlobal
