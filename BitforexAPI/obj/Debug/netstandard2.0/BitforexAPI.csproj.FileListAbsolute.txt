@@ -16,3 +16,12 @@ C:\Users\test\Source\Repos\Arbitrage\BitforexAPI\obj\Debug\netstandard2.0\Bitfor
 C:\Users\test\Source\Repos\Arbitrage\BitforexAPI\obj\Debug\netstandard2.0\BitforexAPI.AssemblyInfo.cs
 C:\Users\test\Source\Repos\Arbitrage\BitforexAPI\obj\Debug\netstandard2.0\BitforexAPI.dll
 C:\Users\test\Source\Repos\Arbitrage\BitforexAPI\obj\Debug\netstandard2.0\BitforexAPI.pdb
+C:\Users\haste\source\repos\Arbitrage\BitforexAPI\bin\Debug\netstandard2.0\BitforexAPI.deps.json
+C:\Users\haste\source\repos\Arbitrage\BitforexAPI\bin\Debug\netstandard2.0\BitforexAPI.dll
+C:\Users\haste\source\repos\Arbitrage\BitforexAPI\bin\Debug\netstandard2.0\BitforexAPI.pdb
+C:\Users\haste\source\repos\Arbitrage\BitforexAPI\obj\Debug\netstandard2.0\BitforexAPI.csprojAssemblyReference.cache
+C:\Users\haste\source\repos\Arbitrage\BitforexAPI\obj\Debug\netstandard2.0\BitforexAPI.csproj.CoreCompileInputs.cache
+C:\Users\haste\source\repos\Arbitrage\BitforexAPI\obj\Debug\netstandard2.0\BitforexAPI.AssemblyInfoInputs.cache
+C:\Users\haste\source\repos\Arbitrage\BitforexAPI\obj\Debug\netstandard2.0\BitforexAPI.AssemblyInfo.cs
+C:\Users\haste\source\repos\Arbitrage\BitforexAPI\obj\Debug\netstandard2.0\BitforexAPI.dll
+C:\Users\haste\source\repos\Arbitrage\BitforexAPI\obj\Debug\netstandard2.0\BitforexAPI.pdb

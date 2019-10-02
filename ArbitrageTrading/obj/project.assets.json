@@ -2051,7 +2051,7 @@
       ]
     },
     "runtime.native.System.Net.Security/4.3.0": {
-      "sha512": "ARfgeRYF2AnYIcqEvy9VE0agN/3zexMMPtcegq1THpOMS63rIGMi706vCo6pbv9Xzw4qhdX1Gu1zyLZHj2WtLA==",
+      "sha512": "M2nN92ePS8BgQ2oi6Jj3PlTUzadYSIWLdZrHY1n1ZcW9o4wAQQ6W+aQ2lfq1ysZQfVCgDwY58alUdowrzezztg==",
       "type": "package",
       "path": "runtime.native.system.net.security/4.3.0",
       "files": [
@@ -4097,7 +4097,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
+      "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -4615,7 +4615,7 @@
       ]
     },
     "System.Threading.ThreadPool/4.3.0": {
-      "sha512": "k/+g4b7vjdd4aix83sTgC9VG6oXYKAktSfNIJUNGxPEj7ryEOfzHHhfnmsZvjxawwcD9HyWXKCXmPjX8U4zeSw==",
+      "sha512": "SrCOmTvvOOCmJT4BBxdZcwhz6XEMsjBGZvGSVorOxdCznaUNeVotEjDfXGIZ8gcGo00qgPbTV6puHDgcFYl6Iw==",
       "type": "package",
       "path": "system.threading.threadpool/4.3.0",
       "files": [
@@ -4727,23 +4727,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\test\\.nuget\\packages\\": {},
+    "C:\\Users\\haste\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\test\\Source\\Repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj",
+      "projectUniqueName": "C:\\Users\\haste\\source\\repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj",
       "projectName": "ArbitrageTrading",
-      "projectPath": "C:\\Users\\test\\Source\\Repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj",
-      "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\test\\Source\\Repos\\Arbitrage\\ArbitrageTrading\\obj\\",
+      "projectPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj",
+      "packagesPath": "C:\\Users\\haste\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\ArbitrageTrading\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\haste\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4756,11 +4756,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\test\\Source\\Repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj": {
-              "projectPath": "C:\\Users\\test\\Source\\Repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj"
+            "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj": {
+              "projectPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj"
             },
-            "C:\\Users\\test\\Source\\Repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj": {
-              "projectPath": "C:\\Users\\test\\Source\\Repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj"
+            "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj": {
+              "projectPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj"
             }
           }
         }
