@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haste\\source\\repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj": {}
+    "C:\\Users\\test\\source\\repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haste\\source\\repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj": {
+    "C:\\Users\\test\\source\\repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haste\\source\\repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj",
+        "projectUniqueName": "C:\\Users\\test\\source\\repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj",
         "projectName": "ArbitrageTrading",
-        "projectPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj",
-        "packagesPath": "C:\\Users\\haste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\ArbitrageTrading\\obj\\",
+        "projectPath": "C:\\Users\\test\\source\\repos\\Arbitrage\\ArbitrageTrading\\ArbitrageTrading.csproj",
+        "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\test\\source\\repos\\Arbitrage\\ArbitrageTrading\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\haste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj": {
-                "projectPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj"
+              "C:\\Users\\test\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj": {
+                "projectPath": "C:\\Users\\test\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj"
               },
-              "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj": {
-                "projectPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj"
+              "C:\\Users\\test\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj": {
+                "projectPath": "C:\\Users\\test\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj"
               }
             }
           }
@@ -67,20 +67,20 @@
         }
       }
     },
-    "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj": {
+    "C:\\Users\\test\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj",
+        "projectUniqueName": "C:\\Users\\test\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj",
         "projectName": "BitfinexAPI",
-        "projectPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj",
-        "packagesPath": "C:\\Users\\haste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitfinexAPI\\obj\\",
+        "projectPath": "C:\\Users\\test\\source\\repos\\Arbitrage\\BitfinexAPI\\BitfinexAPI.csproj",
+        "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\test\\source\\repos\\Arbitrage\\BitfinexAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\haste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,20 +123,20 @@
         }
       }
     },
-    "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj": {
+    "C:\\Users\\test\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj",
+        "projectUniqueName": "C:\\Users\\test\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj",
         "projectName": "BitforexAPI",
-        "projectPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj",
-        "packagesPath": "C:\\Users\\haste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haste\\source\\repos\\Arbitrage\\BitforexAPI\\obj\\",
+        "projectPath": "C:\\Users\\test\\source\\repos\\Arbitrage\\BitforexAPI\\BitforexAPI.csproj",
+        "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\test\\source\\repos\\Arbitrage\\BitforexAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\haste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

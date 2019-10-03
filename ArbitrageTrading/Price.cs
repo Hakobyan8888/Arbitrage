@@ -15,30 +15,29 @@ namespace ArbitrageTrading
     //    public static decimal BitforexBidPrice { get; set; }
 
     //}
-    
-    public static class BinancePrice
+    public struct BinancePrice
     {
-        public static decimal XRP_Price { get; set; }
-        public static decimal ETH_Price { get; set; }
-        public static decimal LTC_Price { get; set; }
+        public static decimal XRP_Price_BTC { get; set; }
+        public static decimal ETH_Price_BTC { get; set; }
+        public static decimal XRP_Price_ETH { get; set; }
     }
-    public static class BitfinexPrice
+    public struct BitfinexPrice
     {
-        public static decimal XRP_Ask_Price { get; set; }
-        public static decimal XRP_Bid_Price { get; set; }
-        public static decimal ETH_Ask_Price { get; set; }
-        public static decimal ETH_Bid_Price { get; set; }
-        public static decimal LTC_Ask_Price { get; set; }
-        public static decimal LTC_Bid_Price { get; set; }
+        public static decimal XRP_Ask_Price_BTC { get; set; }
+        public static decimal XRP_Bid_Price_BTC { get; set; }
+        public static decimal ETH_Ask_Price_BTC { get; set; }
+        public static decimal ETH_Bid_Price_BTC { get; set; }
+        public static decimal XRP_Ask_Price_ETH { get; set; }
+        public static decimal XRP_Bid_Price_ETH { get; set; }
     }
-    public static class BitforexPrice
+    public struct BitforexPrice
     {
-        public static decimal XRP_Ask_Price { get; set; }
-        public static decimal XRP_Bid_Price { get; set; }
-        public static decimal ETH_Ask_Price { get; set; }
-        public static decimal ETH_Bid_Price { get; set; }
-        public static decimal LTC_Ask_Price { get; set; }
-        public static decimal LTC_Bid_Price { get; set; }
+        public static decimal XRP_Ask_Price_BTC { get; set; }
+        public static decimal XRP_Bid_Price_BTC { get; set; }
+        public static decimal ETH_Ask_Price_BTC { get; set; }
+        public static decimal ETH_Bid_Price_BTC { get; set; }
+        public static decimal XRP_Ask_Price_ETH { get; set; }
+        public static decimal XRP_Bid_Price_ETH { get; set; }
     }
 
 }

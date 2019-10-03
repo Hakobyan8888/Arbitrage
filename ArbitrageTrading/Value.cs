@@ -13,8 +13,16 @@ namespace ArbitrageTrading
             var api = new BinanceApi();
             try
             {
-                BinancePrice.XRP_Price = await api.GetExchangeRateAsync(Asset.XRP, Asset.BTC);
-                BinancePrice.ETH_Price = await api.GetExchangeRateAsync(Asset.ETH, Asset.BTC);
+                //Price of XRP-BTC
+                BinancePrice.XRP_Price_BTC = await api.GetExchangeRateAsync(Asset.XRP, Asset.BTC);
+
+                //Price of ETH-BTC
+                BinancePrice.ETH_Price_BTC = await api.GetExchangeRateAsync(Asset.ETH, Asset.BTC);
+                
+                //Price of XRP-ETH
+                BinancePrice.XRP_Price_ETH = await api.GetExchangeRateAsync(Asset.XRP, Asset.ETH);
+
+
             }
             catch (Exception ex)
             {
@@ -30,11 +38,17 @@ namespace ArbitrageTrading
             BitfinexApi.Tickers tickers = new BitfinexApi.Tickers();
             try
             {
-                BitfinexPrice.XRP_Ask_Price = await tickers.Market(BaseCurrency.XRP, QuoteCurrency.BTC, "ask");
-                BitfinexPrice.XRP_Bid_Price = await tickers.Market(BaseCurrency.XRP, QuoteCurrency.BTC, "bid");
+                //Price of XRP-BTC
+                BitfinexPrice.XRP_Ask_Price_BTC = await tickers.Market(BaseCurrency.XRP, QuoteCurrency.BTC, "ask");
+                BitfinexPrice.XRP_Bid_Price_BTC = await tickers.Market(BaseCurrency.XRP, QuoteCurrency.BTC, "bid");
 
-                BitfinexPrice.ETH_Ask_Price = await tickers.Market(BaseCurrency.ETH, QuoteCurrency.BTC, "ask");
-                BitfinexPrice.ETH_Bid_Price = await tickers.Market(BaseCurrency.ETH, QuoteCurrency.BTC, "bid");
+                //Price of ETH-BTC
+                BitfinexPrice.ETH_Ask_Price_BTC = await tickers.Market(BaseCurrency.ETH, QuoteCurrency.BTC, "ask");
+                BitfinexPrice.ETH_Bid_Price_BTC = await tickers.Market(BaseCurrency.ETH, QuoteCurrency.BTC, "bid");
+
+                //Price of XRP-ETH
+                //BitfinexPrice.XRP_Ask_Price_ETH = await tickers.Market(BaseCurrency.ETH, QuoteCurrency.XRP, "ask");
+                //BitfinexPrice.XRP_Bid_Price_ETH = await tickers.Market(BaseCurrency.ETH, QuoteCurrency.XRP, "bid");
             }
             catch (Exception ex)
             {
@@ -48,11 +62,17 @@ namespace ArbitrageTrading
             BitforexAPI.BitforexClient bitforexClient = new BitforexAPI.BitforexClient();
             try
             {
-                BitforexPrice.XRP_Ask_Price = await bitforexClient.MarketAsync(assets.XRP, assets.BTC, "ask");
-                BitforexPrice.XRP_Bid_Price = await bitforexClient.MarketAsync(assets.XRP, assets.BTC, "bid");
+                //Price of XRP-BTC
+                BitforexPrice.XRP_Ask_Price_BTC = await bitforexClient.MarketAsync(assets.XRP, assets.BTC, "ask");
+                BitforexPrice.XRP_Bid_Price_BTC = await bitforexClient.MarketAsync(assets.XRP, assets.BTC, "bid");
 
-                BitforexPrice.ETH_Ask_Price = await bitforexClient.MarketAsync(assets.ETH, assets.BTC, "bid");
-                BitforexPrice.ETH_Bid_Price = await bitforexClient.MarketAsync(assets.ETH, assets.BTC, "bid");
+                //Price of ETH-BTC
+                BitforexPrice.ETH_Ask_Price_BTC = await bitforexClient.MarketAsync(assets.ETH, assets.BTC, "bid");
+                BitforexPrice.ETH_Bid_Price_BTC = await bitforexClient.MarketAsync(assets.ETH, assets.BTC, "bid");
+
+                //Price of XRP-ETH
+                BitforexPrice.XRP_Ask_Price_ETH = await bitforexClient.MarketAsync(assets.XRP, assets.ETH, "bid");
+                BitforexPrice.XRP_Bid_Price_ETH = await bitforexClient.MarketAsync(assets.XRP, assets.ETH, "bid");
             }
             catch (Exception ex)
             {
